@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { RegistroPonto } from '../../model/registro-ponto';
 
-const BASE_URL = "http://localhost:52751:52751/api/RegistroPonto";
+const BASE_URL = "http://localhost:52751/api/RegistroPonto";
 
 @Injectable()
 export class RegistroPontoProvider {
