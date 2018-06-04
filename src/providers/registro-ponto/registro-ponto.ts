@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { RegistroPonto } from '../../model/registro-ponto';
 
-const BASE_URL = "http://localhost:52751/api/RegistroPonto";
+const BASE_URL = "http://localhost:52751/api/Registros";
 
 @Injectable()
 export class RegistroPontoProvider {
@@ -15,4 +15,5 @@ export class RegistroPontoProvider {
   registrarPonto(registro: RegistroPonto): Observable<any> {
     return this.http.post<any>(BASE_URL, registro);
   }
+
 }

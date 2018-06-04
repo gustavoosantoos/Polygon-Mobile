@@ -1,5 +1,5 @@
 <ion-tabs>
   <ion-tab [root]="tab1Root" tabTitle="Registrar Ponto" tabIcon="clock"></ion-tab>
   <ion-tab [root]="tab2Root" tabTitle="Histórico" tabIcon="paper"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Sair" tabIcon="power"></ion-tab>
+  <ion-tab tabTitle="Sair" tabIcon="power" (click)="exitApp()"></ion-tab>
 </ion-tabs>
